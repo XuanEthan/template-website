@@ -1,0 +1,142 @@
+/* for tablet and moblie */
+@media (max-width :768px) {
+    .section-content {
+        max-width: 100%;
+    }
+
+    .btn {
+        padding: 16px !important;
+    }
+
+    #bars-btn {
+        display: none;
+    }
+
+    #footer-content i {
+        font-size: 30px;
+        margin: 0 3px;
+    }
+
+}
+
+/* mobile */
+@media (max-width : 625px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header.bars-open {
+        height: auto;
+    }
+
+    #search-btn {
+        display: none;
+    }
+
+    #nav {
+        height: auto;
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: unset;
+        background-color: #3d3d3d;
+    }
+
+    #nav .subnav li a {
+        color: white;
+    }
+
+    #bars-btn {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #bars-btn .bars-icon {
+        font-size: 17px;
+        color: white;
+        line-height: 45px;
+        padding: 0 24px;
+    }
+
+    #bars-btn:hover .bars-icon {
+        background-color: rgb(223, 223, 223);
+        color: black;
+    }
+
+    .section-content {
+        max-width: 100%;
+    }
+
+    #members-list .member {
+        float: unset;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #members-list img {
+        width: 60%;
+    }
+
+    #booking-tours-content .tours-list .item {
+        width: 100%;
+        padding: 0 10px;
+        color: black;
+        margin-bottom: 16px;
+    }
+
+    #contact-content .section-content .body-contact {
+        display: block;
+        width: 100%;
+    }
+
+    #contact-content .body-contact .group-details,
+    #contact-content .body-contact .consumer-details {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        font-size: 18px;
+    }
+
+    #contact-content .body-contact .consumer-details {
+        margin-top: 26px;
+    }
+
+    #contact-content .consumer-details .consumer-information {
+        margin-bottom: unset;
+    }
+
+    .sub-margin {
+        margin-bottom: 10px;
+    }
+
+    .s-col-one {
+        width: 100% !important;
+    }
+
+    #contact-content .consumer-details .btn-containt {
+        margin: 16px 1px;
+        float: unset;
+        width: 100%;
+    }
+
+    .modal .modal-container {
+        width: 95%;
+        position: absolute;
+        top: 45px;
+    }
+
+}
+
+
